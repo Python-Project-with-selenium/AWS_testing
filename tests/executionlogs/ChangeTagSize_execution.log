@@ -1,16 +1,16 @@
-2024-11-26 15:38:27 INFO Change signature Tag size script execution - Started 
-2024-11-26 15:38:48 INFO Logged in to the DocuSign Application successfully 
-2024-11-26 15:39:03 INFO Validated the home page 
-2024-11-26 15:39:04 INFO Clicked on the start button to open the upload envelop section. 
-2024-11-26 15:39:21 INFO Uploaded the document as a sender 
-2024-11-26 15:39:21 INFO Selected the set signing order checkbox 
-2024-11-26 15:39:24 INFO Added the recipient 1 details. 
-2024-11-26 15:39:29 INFO Added the recipient 2 details 
-2024-11-26 15:39:29 INFO Clicked on the next button 
-2024-11-26 15:39:34 INFO Dragged and dropped the signature tag for recipient 1 
-2024-11-26 15:39:35 INFO Validated the options under the signature section 
-2024-11-26 15:39:39 INFO Increased the signature tag size for recipient 1 
-2024-11-26 15:39:40 INFO Selected the Recipient2 from the drop down 
-2024-11-26 15:39:44 INFO Dragged and dropped the signature tag for recipient 2  
-2024-11-26 15:39:48 INFO Increased the signature tag size for recipient 2. 
-2024-11-26 15:39:48 INFO Change signature Tag size script execution - completed 
+2024-11-27 15:47:03 INFO Change signature Tag size script execution - Started 
+2024-11-27 15:47:27 INFO Logged in to the DocuSign Application successfully 
+2024-11-27 15:47:43 INFO Validated the home page 
+2024-11-27 15:47:44 INFO Clicked on the start button to open the upload envelop section. 
+2024-11-27 15:48:00 INFO Uploaded the document as a sender 
+2024-11-27 15:48:00 INFO Selected the set signing order checkbox 
+2024-11-27 15:48:04 INFO Added the recipient 1 details. 
+2024-11-27 15:48:09 INFO Added the recipient 2 details 
+2024-11-27 15:48:09 INFO Clicked on the next button 
+2024-11-27 15:48:14 INFO Dragged and dropped the signature tag for recipient 1 
+2024-11-27 15:48:15 INFO Validated the options under the signature section 
+2024-11-27 15:48:19 INFO Increased the signature tag size for recipient 1 
+2024-11-27 15:48:19 INFO Selected the Recipient2 from the drop down 
+2024-11-27 15:48:24 INFO Dragged and dropped the signature tag for recipient 2  
+2024-11-27 15:48:28 INFO Increased the signature tag size for recipient 2. 
+2024-11-27 15:48:28 INFO Change signature Tag size script execution - completed 
