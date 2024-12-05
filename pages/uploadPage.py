@@ -84,9 +84,9 @@ class Upload_Page:
 
     def upload_envelope_documents(self, filename, wootricPopup=False, root_directory=None):
         time.sleep(2)
-        WebDriverWait(self.driver, 20).until(
+        WebDriverWait(self.driver, 30).until(
             EC.element_to_be_clickable((By.CSS_SELECTOR, self.upload_file_button))).click()
-        browse_button = WebDriverWait(self.driver, 10).until(
+        browse_button = WebDriverWait(self.driver, 30).until(
             EC.element_to_be_clickable((By.CSS_SELECTOR, self.upload_file_input)))
         if root_directory is None:
             root_directory = os.getcwd()
