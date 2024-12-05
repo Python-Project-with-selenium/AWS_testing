@@ -95,6 +95,9 @@ class Upload_Page:
             #print("Document path =", document_path)
             file_path = Path(document_path)
             document_path = str(file_path)
+            print(f"Resolved document path: {document_path}")
+            assert os.path.exists(document_path), "Document file does not exist at the given path!"
+
             browse_button.send_keys(document_path)
             time.sleep(2)
 
