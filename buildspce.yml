@@ -67,8 +67,8 @@ Resources:
               - pip install -r requirements.txt
           build:
             commands:
-              - echo "Running tests..."
-              - pytest
+              - echo "Running tests"
+              - pytest tests/
         artifacts:
           files:
             - '**/*'
