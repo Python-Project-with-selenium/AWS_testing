@@ -1,0 +1,84 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Description: AWS CodePipeline for Python Project
+
+Resources:
+  CodePipeline:
+    Type: AWS::CodePipeline::Pipeline
+    Properties:
+      Name: SimpleSchedulePythonBuildService
+      RoleArn: arn:aws:iam::your-account-id:role/service-role/AWSCodePipelineServiceRole
+      ArtifactStore:
+        Type: S3
+        Location: your-s3-bucket-name
+      Stages:
+        - Name: Source
+          Actions:
+            - Name: GitHubSource
+              ActionTypeId:
+                Category: Source
+                Owner: AWS
+                Provider: CodeStarSourceConnection
+                Version: 1
+              Configuration:
+                ConnectionArn: arn:aws:codeconnections:eu-north-1:257394473369:connection/bb147fa5-9743-48cb-82ff-2059404cfd22
+                FullRepositoryId: Python-Project-with-selenium/AWS_testing
+                BranchName: testing_docusign
+                OutputArtifactFormat: CODE_ZIP
+              OutputArtifacts:
+                - Name: SourceArtifact
+        - Name: Build
+          Actions:
+            - Name: CodeBuildAction
+              ActionTypeId:
+                Category: Build
+                Owner: AWS
+                Provider: CodeBuild
+                Version: 1
+              Configuration:
+                ProjectName: SimpleSchedulePythonBuildService
+              InputArtifacts:
+                - Name: SourceArtifact
+              OutputArtifacts:
+                - Name: BuildArtifact
+
+  CodeBuildProject:
+    Type: AWS::CodeBuild::Project
+    Properties:
+      Name: SimpleSchedulePythonBuildService
+      Source:
+        Type: CODEPIPELINE
+      Artifacts:
+        Type: CODEPIPELINE
+      Environment:
+        ComputeType: BUILD_GENERAL1_SMALL
+        Image: aws/codebuild/standard:5.0
+        Type: LINUX_CONTAINER
+      ServiceRole: arn:aws:iam::your-account-id:role/service-role/AWSCodeBuildServiceRole
+      TimeoutInMinutes: 10
+      EnvironmentVariables:
+        - Name: ENV_VAR
+          Value: production
+      BuildSpec: |
+        version: 0.2
+        phases:
+          install:
+            commands:
+              - echo "Installing dependencies..."
+              - pip install -r requirements.txt
+          build:
+            commands:
+              - echo "Running tests..."
+              - pytest
+        artifacts:
+          files:
+            - '**/*'
+
+  EventBridgeRule:
+    Type: AWS::Events::Rule
+    Properties:
+      Name: TriggerPipelineSchedule
+      ScheduleExpression: 'cron(0 9 ? * MON-FRI *)'
+      State: ENABLED
+      Targets:
+        - Arn: !Sub arn:aws:codepipeline:${AWS::Region}:${AWS::AccountId}:SimpleSchedulePythonBuildService
+          Id: CodePipelineTarget
