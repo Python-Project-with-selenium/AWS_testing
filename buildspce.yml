@@ -68,10 +68,12 @@ Resources:
               - echo "Installing dependencies..."
               - pip install --upgrade pip
               - pip install -r requirements.txt
+              - python -m pip install --upgrade numpy pandas
           build:
             commands:
               - echo "Running tests"
-              - pytest tests/ --html=pytest_html_report.html --self-contained-html
+              - cd tests
+              - pytest --html=pytest_html_report.html --self-contained-html
         artifacts:
           files:
             - '**/*'
