@@ -53,7 +53,7 @@ def test_setup(request):
             'download.directory_upgrade': True,
             ' safebrowsing.enabled': True
         })
-        edge_options.binary_location = "C:/Program Files (x86)/Microsoft/Edge/Application/msedge.exe"
+        edge_options.binary_location = "C:/Program Files/Microsoft/Edge/Application/msedge.exe"
         driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()), options=edge_options)
     driver.implicitly_wait(2)
     driver.maximize_window()
