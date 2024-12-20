@@ -47,13 +47,19 @@ def test_setup(request):
     elif browser == "edge":
         download_path = os.path.abspath(constants.download_path)
         edge_options = webdriver.EdgeOptions()
+        edge_options.add_argument("--headless")
+        edge_options.add_argument("--disable-gpu")
         edge_options.add_experimental_option('prefs', {
             'download.default_directory': download_path,
             'download.prompt_for_download': False,
             'download.directory_upgrade': True,
-            ' safebrowsing.enabled': True
+            'safebrowsing.enabled': True
         })
-        edge_options.binary_location = "C:/Program Files/Microsoft/Edge/Application/msedge.exe"
+        if os.environ.get('AWS_EXECUTION_ENV'):  # Checks if running in AWS environment
+            # AWS CodePipeline or CodeBuild environment
+            edge_options.binary_location = "/opt/microsoft/msedge/msedge"
+        else:
+            print("running as local")
         driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()), options=edge_options)
     driver.implicitly_wait(2)
     driver.maximize_window()
