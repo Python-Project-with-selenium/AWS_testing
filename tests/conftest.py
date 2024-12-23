@@ -34,7 +34,9 @@ def test_setup(request):
             "download.directory_upgrade": True,
             "safebrowsing.enabled": True
         })
-        driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
+        # driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
+        driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager(version="114.0.5735.90").install()),
+            options=options)
     elif browser == "firefox":
         download_path = os.path.abspath(constants.download_path)
         options = webdriver.FirefoxOptions()
