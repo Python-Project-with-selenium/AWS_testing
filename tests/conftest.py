@@ -16,7 +16,7 @@ import pytz
 
 
 def pytest_addoption(parser):
-    parser.addoption("--browser", action="store", default="edge")
+    parser.addoption("--browser", action="store", default="chrome")
 
 
 @pytest.fixture(scope='class')
@@ -56,6 +56,7 @@ def test_setup(request):
             'safebrowsing.enabled': True
         })
         if os.environ.get('AWS_EXECUTION_ENV'):  # Checks if running in AWS environment
+            print("executing in in AWS")
             # AWS CodePipeline or CodeBuild environment
             edge_options.binary_location = "/opt/microsoft/msedge/msedge"
         else:
