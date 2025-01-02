@@ -59,12 +59,6 @@ def test_setup(request):
             'download.directory_upgrade': True,
             'safebrowsing.enabled': True
         })
-        if os.environ.get('AWS_EXECUTION_ENV'):  # Checks if running in AWS environment
-            print("executing in in AWS")
-            # AWS CodePipeline or CodeBuild environment
-            edge_options.binary_location = "/opt/microsoft/msedge/msedge"
-        else:
-            print("running as local")
         driver = webdriver.Edge(service=EdgeService(EdgeChromiumDriverManager().install()), options=edge_options)
     driver.implicitly_wait(2)
     driver.maximize_window()
