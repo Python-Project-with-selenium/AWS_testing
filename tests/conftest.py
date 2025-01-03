@@ -51,8 +51,8 @@ def test_setup(request):
     elif browser == "edge":
         download_path = os.path.abspath(constants.download_path)
         edge_options = webdriver.EdgeOptions()
-        # edge_options.add_argument("--headless")
-        # edge_options.add_argument("--disable-gpu")
+        edge_options.add_argument("--headless")
+        edge_options.add_argument("--disable-gpu")
         edge_options.add_experimental_option('prefs', {
             'download.default_directory': download_path,
             'download.prompt_for_download': False,
