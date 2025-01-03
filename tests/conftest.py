@@ -53,6 +53,7 @@ def test_setup(request):
         edge_options = webdriver.EdgeOptions()
         edge_options.add_argument("--headless")
         edge_options.add_argument("--disable-gpu")
+        edge_options.add_argument("--remote-debugging-port=9222")
         edge_options.add_experimental_option('prefs', {
             'download.default_directory': download_path,
             'download.prompt_for_download': False,
