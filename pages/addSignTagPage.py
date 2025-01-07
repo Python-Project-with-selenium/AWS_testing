@@ -90,6 +90,7 @@ class Add_Sign_Tags:
         WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable((By.XPATH, self.home_tab))).click()
 
     def validateOptionsUnderSignature(self):
+        time.sleep(10)
         assert all(WebDriverWait(self.driver, 30).until(EC.visibility_of_element_located((
             By.XPATH, xpath))).is_displayed() for xpath in
                    [self.formatting_option, self.location_option, self.tooltip_option, self.datalabel_option,
