@@ -73,7 +73,7 @@ def pytest_html_report_title(report):
 
 # Helper function to capture screenshots
 def capture_screenshot(driver, test_name):
-    screenshots_dir = "test_results/screenshots"
+    screenshots_dir = "screenshots"
     os.makedirs(screenshots_dir, exist_ok=True)
     timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
     screenshot_path = os.path.join(screenshots_dir, f"{test_name}_{timestamp}.png")
