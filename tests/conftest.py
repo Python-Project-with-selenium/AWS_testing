@@ -39,7 +39,7 @@ def test_setup(request):
     elif browser == "firefox":
         download_path = os.path.abspath(constants.download_path)
         options = webdriver.FirefoxOptions()
-        # options.add_argument("--headless")
+        options.add_argument("--headless")
         options.set_preference("browser.download.folderList", 2)
         options.set_preference("browser.download.manager.showWhenStarting", False)
         options.set_preference("signon.management.page.os-authKeystore", False)
