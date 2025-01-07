@@ -39,7 +39,7 @@ def test_setup(request):
     elif browser == "firefox":
         download_path = os.path.abspath(constants.download_path)
         options = webdriver.FirefoxOptions()
-        options.add_argument("--headless")
+        # options.add_argument("--headless")
         options.set_preference("browser.download.folderList", 2)
         options.set_preference("browser.download.manager.showWhenStarting", False)
         options.set_preference("signon.management.page.os-authKeystore", False)
@@ -49,8 +49,8 @@ def test_setup(request):
     elif browser == "edge":
         download_path = os.path.abspath(constants.download_path)
         edge_options = webdriver.EdgeOptions()
-        edge_options.add_argument("--headless")
-        edge_options.add_argument("--disable-gpu")
+        # edge_options.add_argument("--headless")
+        # edge_options.add_argument("--disable-gpu")
         edge_options.add_argument("--remote-debugging-port=9222")
         edge_options.add_experimental_option('prefs', {
             'download.default_directory': download_path,

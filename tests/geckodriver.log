@@ -1,0 +1,386 @@
+1736229145988	geckodriver	INFO	Listening on 127.0.0.1:60329
+1736229795084	geckodriver	INFO	Listening on 127.0.0.1:60793
+1736229798147	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60794" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SYEDJA~1\\AppData\\Local\\Temp\\rust_mozprofileWIgssS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1736229798757	Marionette	INFO	Marionette enabled
+1736229799236	Marionette	INFO	Listening on port 60802
+WebDriver BiDi listening on ws://127.0.0.1:60794
+Read port: 60802
+1736229799451	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+1736229868758	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:206:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:190:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+1736229869882	Marionette	INFO	Stopped listening on port 60802
+JavaScript warning: https://docucdn-a.akamaihd.net/demo/1ds-app/1972369/js/bundle.js, line 2: Script terminated by timeout at:
+execute/80435/ne/s/n.args[0]@https://docucdn-a.akamaihd.net/demo/1ds-app/1972369/js/bundle.js:2:605051
+
+Dynamically enable window occlusion 1
+1736230649908	geckodriver	INFO	Listening on 127.0.0.1:60968
+1736230652955	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "60969" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SYEDJA~1\\AppData\\Local\\Temp\\rust_mozprofilenKumza"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1736230653828	Marionette	INFO	Marionette enabled
+1736230654233	Marionette	INFO	Listening on port 60976
+WebDriver BiDi listening on ws://127.0.0.1:60969
+Read port: 60976
+1736230654466	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+1736230714055	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:206:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:190:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+1736230715587	Marionette	INFO	Stopped listening on port 60976
+JavaScript warning: https://docucdn-a.akamaihd.net/demo/1ds-app/1972369/js/bundle.js, line 2: Script terminated by timeout at:
+execute/80435/ne/s/n.args[0]@https://docucdn-a.akamaihd.net/demo/1ds-app/1972369/js/bundle.js:2:605051
+
+Dynamically enable window occlusion 1
+1736230808320	geckodriver	INFO	Listening on 127.0.0.1:61064
+1736230811372	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61065" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SYEDJA~1\\AppData\\Local\\Temp\\rust_mozprofile3hQQtF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1736230811670	Marionette	INFO	Marionette enabled
+1736230811885	Marionette	INFO	Listening on port 61072
+WebDriver BiDi listening on ws://127.0.0.1:61065
+Read port: 61072
+1736230812040	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+1736230857598	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:206:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:190:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+1736230868042	Marionette	INFO	Stopped listening on port 61072
+Dynamically enable window occlusion 1
+1736232184334	geckodriver	INFO	Listening on 127.0.0.1:61349
+1736232187361	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61350" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SYEDJA~1\\AppData\\Local\\Temp\\rust_mozprofiledvljTv"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1736232188226	Marionette	INFO	Marionette enabled
+1736232188723	Marionette	INFO	Listening on port 61357
+WebDriver BiDi listening on ws://127.0.0.1:61350
+Read port: 61357
+1736232189060	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+1736232215962	Marionette	WARN	Ignoring event 'DOMContentLoaded' because document has an invalid readyState of 'complete'.
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+JavaScript warning: https://docucdn-a.akamaihd.net/demo/1ds-app/1972369/js/bundle.js, line 2: Script terminated by timeout at:
+w@https://docucdn-a.akamaihd.net/demo/1ds-app/1972369/js/bundle.js:2:599722
+
+Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null
+getMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:544:17
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:569:17
+
+console.error: "Marionette threw an error: TypeError: browsingContext.currentWindowGlobal is null\ngetMarionetteCommandsActorProxy/get/<@chrome://remote/content/marionette/actors/MarionetteCommandsParent.sys.mjs:544:17\nobserve@resource://gre/modules/AsyncShutdown.sys.mjs:569:17\n"
+1736232327899	Marionette	INFO	Stopped listening on port 61357
+Dynamically enable window occlusion 1
+1736232338572	geckodriver	INFO	Listening on 127.0.0.1:61423
+1736232341609	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61424" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SYEDJA~1\\AppData\\Local\\Temp\\rust_mozprofilefxnuZy"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1736232342266	Marionette	INFO	Marionette enabled
+1736232342711	Marionette	INFO	Listening on port 61431
+Read port: 61431
+WebDriver BiDi listening on ws://127.0.0.1:61424
+1736232342916	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+1736232510595	Marionette	INFO	Stopped listening on port 61431
+JavaScript warning: https://docucdn-a.akamaihd.net/demo/1ds-app/1972369/js/bundle.js, line 2: Script terminated by timeout at:
+execute/80435/ne/o</</a[0]@https://docucdn-a.akamaihd.net/demo/1ds-app/1972369/js/bundle.js:2:605430
+invokeTask@https://docucdn-a.akamaihd.net/demo/1ds-app/1972369/js/bundle.js:2:591496
+runTask@https://docucdn-a.akamaihd.net/demo/1ds-app/1972369/js/bundle.js:2:586807
+invokeTask@https://docucdn-a.akamaihd.net/demo/1ds-app/1972369/js/bundle.js:2:592573
+execute/80435/n/c/this.invoke@https://docucdn-a.akamaihd.net/demo/1ds-app/1972369/js/bundle.js:2:592475
+execute/80435/ne/s/n.args[0]@https://docucdn-a.akamaihd.net/demo/1ds-app/1972369/js/bundle.js:2:605070
+
+Dynamically enable window occlusion 1
+1736233716273	geckodriver	INFO	Listening on 127.0.0.1:61647
+1736233719341	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61648" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SYEDJA~1\\AppData\\Local\\Temp\\rust_mozprofileb4kbo3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1736233719689	Marionette	INFO	Marionette enabled
+1736233719936	Marionette	INFO	Listening on port 61655
+WebDriver BiDi listening on ws://127.0.0.1:61648
+Read port: 61655
+1736233720117	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://account-d.docusign.com/oauth/auth?response_type=code&scope=all%20click.manage%20me_profile%20room_forms%20room_fields%20inproductcommunication_read%20data_explorer_signing_insights%20notary_read%20notary_write%20search_read%20search_write%20webforms_manage%20dtr%20valmod_manage%20signature&client_id=2CC56DC9-4BCD-4B55-8AB0-8BA60BAE1065&redirect_uri=https%3A%2F%2Fapps-d.docusign.com%2Fauthenticate&state=%7B%22widgetId%22%3A%22%40ds%2Fsend%22%2C%22xsrfToken%22%3A%22QVveKhEk30mvd9clmOtFCUiU3jPzRi592HT%2BFXaOyTWMdw%2BQqjBsbgAzZCdxxoJCQRA463YofG4vjU5anzSD1LK5CWqZ3wWeG5dQggbNZ0kVSvjBQRge46EpnKJsOo3cb%2B6dNmViCnuk0GZ5bg%2F74RwVGw5sHGPqP2%2B2Bs97bfc%3D%22%2C%22redirectUri%22%3A%22%2Fsend%2Fauthentication%22%2C%22authTxnId%22%3A%22567bb975-918a-4378-9a7f-aed98924a81f%22%7D" ({})
+1736233863229	Marionette	INFO	Stopped listening on port 61655
+Dynamically enable window occlusion 1
+1736233977123	geckodriver	INFO	Listening on 127.0.0.1:61800
+1736233980200	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61801" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SYEDJA~1\\AppData\\Local\\Temp\\rust_mozprofile3J2Twh"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1736233980509	Marionette	INFO	Marionette enabled
+1736233980772	Marionette	INFO	Listening on port 61808
+WebDriver BiDi listening on ws://127.0.0.1:61801
+Read port: 61808
+1736233980928	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+1736234025407	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:206:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:190:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+1736234025887	Marionette	INFO	Stopped listening on port 61808
+Dynamically enable window occlusion 1
+1736234102564	geckodriver	INFO	Listening on 127.0.0.1:61865
+1736234105635	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61866" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SYEDJA~1\\AppData\\Local\\Temp\\rust_mozprofileMadvBW"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1736234105941	Marionette	INFO	Marionette enabled
+1736234106149	Marionette	INFO	Listening on port 61873
+WebDriver BiDi listening on ws://127.0.0.1:61866
+Read port: 61873
+1736234106309	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+1736234149768	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:206:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:190:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+1736234160303	Marionette	INFO	Stopped listening on port 61873
+JavaScript warning: https://docucdn-a.akamaihd.net/demo/1ds-app/1972369/js/bundle.js, line 2: Script terminated by timeout at:
+execute/80435/ne/s/n.args[0]@https://docucdn-a.akamaihd.net/demo/1ds-app/1972369/js/bundle.js:2:605051
+
+Dynamically enable window occlusion 1
+1736234374085	geckodriver	INFO	Listening on 127.0.0.1:61978
+1736234377169	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "61979" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SYEDJA~1\\AppData\\Local\\Temp\\rust_mozprofile5jPmRQ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1736234377480	Marionette	INFO	Marionette enabled
+1736234377682	Marionette	INFO	Listening on port 61986
+WebDriver BiDi listening on ws://127.0.0.1:61979
+Read port: 61986
+1736234377838	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+1736234421615	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:206:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:190:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+1736234432117	Marionette	INFO	Stopped listening on port 61986
+JavaScript warning: https://docucdn-a.akamaihd.net/demo/1ds-app/1972369/js/bundle.js, line 2: Script terminated by timeout at:
+execute/80435/ne/s/n.args[0]@https://docucdn-a.akamaihd.net/demo/1ds-app/1972369/js/bundle.js:2:605051
+
+Dynamically enable window occlusion 1
+1736234674558	geckodriver	INFO	Listening on 127.0.0.1:62114
+1736234677630	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62115" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SYEDJA~1\\AppData\\Local\\Temp\\rust_mozprofile60Ox01"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1736234677982	Marionette	INFO	Marionette enabled
+1736234678196	Marionette	INFO	Listening on port 62122
+WebDriver BiDi listening on ws://127.0.0.1:62115
+Read port: 62122
+1736234678360	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+1736234733111	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:206:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:190:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+1736234753580	Marionette	INFO	Stopped listening on port 62122
+Dynamically enable window occlusion 1
+1736234895558	geckodriver	INFO	Listening on 127.0.0.1:62271
+1736234898624	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62272" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SYEDJA~1\\AppData\\Local\\Temp\\rust_mozprofilefW98pM"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1736234898932	Marionette	INFO	Marionette enabled
+1736234899151	Marionette	INFO	Listening on port 62280
+WebDriver BiDi listening on ws://127.0.0.1:62272
+Read port: 62280
+1736234899308	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+1736234956452	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:206:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:190:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+1736234974217	Marionette	INFO	Stopped listening on port 62280
+Dynamically enable window occlusion 1
+1736240182731	geckodriver	INFO	Listening on 127.0.0.1:62812
+1736240185770	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62813" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SYEDJA~1\\AppData\\Local\\Temp\\rust_mozprofileixNBHi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1736240186137	Marionette	INFO	Marionette enabled
+1736240186418	Marionette	INFO	Listening on port 62820
+WebDriver BiDi listening on ws://127.0.0.1:62813
+Read port: 62820
+1736240186614	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://account-d.docusign.com/oauth/auth?response_type=code&scope=all%20click.manage%20me_profile%20room_forms%20room_fields%20inproductcommunication_read%20data_explorer_signing_insights%20notary_read%20notary_write%20search_read%20search_write%20webforms_manage%20dtr%20valmod_manage%20signature&client_id=2CC56DC9-4BCD-4B55-8AB0-8BA60BAE1065&redirect_uri=https%3A%2F%2Fapps-d.docusign.com%2Fauthenticate&state=%7B%22widgetId%22%3A%22%40ds%2Fsend%22%2C%22xsrfToken%22%3A%22lYOmjvd%2B6i0wSyk8GfYA2X1bFIix9ym6NaUzRhdSYLx12E7UfgUAqiM4LSSTR6zYv4Xf7Gc86VNsmeZ7BqiYmtECDcQ8FAVrWutnKWPOHrpheSuj6L9gLnksQ5GWwXmyaaFTDjCyVIxWviksxW2sNzLZehOH%2B9L35LKFUBcS5R8%3D%22%2C%22redirectUri%22%3A%22%2Fsend%2Fauthentication%22%2C%22authTxnId%22%3A%226473b739-cee8-4058-b542-18f6f7e17164%22%7D" ({})
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+1736240387735	Marionette	INFO	Stopped listening on port 62820
+JavaScript warning: https://docucdn-a.akamaihd.net/demo/1ds-app/1972369/js/bundle.js, line 2: Script terminated by timeout at:
+execute/80435/ne/s/n.args[0]@https://docucdn-a.akamaihd.net/demo/1ds-app/1972369/js/bundle.js:2:605051
+
+Dynamically enable window occlusion 1
+1736240426348	geckodriver	INFO	Listening on 127.0.0.1:62904
+1736240429394	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "62905" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SYEDJA~1\\AppData\\Local\\Temp\\rust_mozprofilevY54jC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1736240429774	Marionette	INFO	Marionette enabled
+1736240430020	Marionette	INFO	Listening on port 62912
+WebDriver BiDi listening on ws://127.0.0.1:62905
+Read port: 62912
+1736240430196	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+1736240476634	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:206:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:190:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://account-d.docusign.com/oauth/auth?response_type=code&scope=all%20click.manage%20me_profile%20room_forms%20room_fields%20inproductcommunication_read%20data_explorer_signing_insights%20notary_read%20notary_write%20search_read%20search_write%20webforms_manage%20dtr%20valmod_manage%20signature&client_id=2CC56DC9-4BCD-4B55-8AB0-8BA60BAE1065&redirect_uri=https%3A%2F%2Fapps-d.docusign.com%2Fauthenticate&state=%7B%22widgetId%22%3A%22%40ds%2Fsend%22%2C%22xsrfToken%22%3A%22lNkspZE2yJqGQXJJ9%2BH5k%2BH0Ssetz6iLw61yzDWhZrEPJkgotJrpFFWzRkeeMs%2Bje4tSDWEgP1wWmqQRaJa0uxQpkvcMoKHH%2BrdEuS%2Bmg9KWrxWczb%2FeBluQdqJNRJxpc1%2B%2FYKcpXcUUfdq0to1VNNij2CL1RtQIE1V3e9F8IcM%3D%22%2C%22redirectUri%22%3A%22%2Fsend%2Fauthentication%22%2C%22authTxnId%22%3A%2226cc83b4-170b-41da-828f-23ef0ed545aa%22%7D" ({})
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://account-d.docusign.com/oauth/auth?response_type=code&scope=all%20click.manage%20me_profile%20room_forms%20room_fields%20inproductcommunication_read%20data_explorer_signing_insights%20notary_read%20notary_write%20search_read%20search_write%20webforms_manage%20dtr%20valmod_manage%20signature&client_id=2CC56DC9-4BCD-4B55-8AB0-8BA60BAE1065&redirect_uri=https%3A%2F%2Fapps-d.docusign.com%2Fauthenticate&state=%7B%22widgetId%22%3A%22%40ds%2Fsend%22%2C%22xsrfToken%22%3A%22lNkspZE2yJqGQXJJ9%2BH5k%2BH0Ssetz6iLw61yzDWhZrEPJkgotJrpFFWzRkeeMs%2Bje4tSDWEgP1wWmqQRaJa0uxQpkvcMoKHH%2BrdEuS%2Bmg9KWrxWczb%2FeBluQdqJNRJxpc1%2B%2FYKcpXcUUfdq0to1VNNij2CL1RtQIE1V3e9F8IcM%3D%22%2C%22redirectUri%22%3A%22%2Fsend%2Fauthentication%22%2C%22authTxnId%22%3A%2226cc83b4-170b-41da-828f-23ef0ed545aa%22%7D" ({})
+1736240727186	Marionette	INFO	Stopped listening on port 62912
+Dynamically enable window occlusion 1
+1736240782557	geckodriver	INFO	Listening on 127.0.0.1:63010
+1736240785628	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63011" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SYEDJA~1\\AppData\\Local\\Temp\\rust_mozprofilewfziyG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1736240785973	Marionette	INFO	Marionette enabled
+1736240786215	Marionette	INFO	Listening on port 63018
+WebDriver BiDi listening on ws://127.0.0.1:63011
+Read port: 63018
+1736240786370	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+1736240854452	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:206:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:190:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+1736240865336	Marionette	INFO	Stopped listening on port 63018
+Dynamically enable window occlusion 1
+1736241092237	geckodriver	INFO	Listening on 127.0.0.1:63110
+1736241095297	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63111" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SYEDJA~1\\AppData\\Local\\Temp\\rust_mozprofileBH9ZL3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1736241095655	Marionette	INFO	Marionette enabled
+1736241095946	Marionette	INFO	Listening on port 63118
+WebDriver BiDi listening on ws://127.0.0.1:63111
+Read port: 63118
+1736241096121	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+1736241142951	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:206:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:190:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+console.warn: WindowsJumpLists: "Failed to fetch favicon for " "https://account-d.docusign.com/oauth/auth?response_type=code&scope=all%20click.manage%20me_profile%20room_forms%20room_fields%20inproductcommunication_read%20data_explorer_signing_insights%20notary_read%20notary_write%20search_read%20search_write%20webforms_manage%20dtr%20valmod_manage%20signature&client_id=2CC56DC9-4BCD-4B55-8AB0-8BA60BAE1065&redirect_uri=https%3A%2F%2Fapps-d.docusign.com%2Fauthenticate&state=%7B%22widgetId%22%3A%22%40ds%2Fsend%22%2C%22xsrfToken%22%3A%22wxgl8NS4A7XnXjVO4KOG6oeio%2FUVNs%2BkoK6C6vvjLRhM9ZDrDMeZRMUODSIEN2vcqL4iGHhCW53f5HiGhWcxvN0xQX1KAYPaMrzqMQv46CtRIHOkyX7BDkGdxRGrKgPljt2NC%2B5qiz4R0quWnptPKZkbhrXi7ub1D8TWHleaDyg%3D%22%2C%22redirectUri%22%3A%22%2Fsend%2Fauthentication%22%2C%22authTxnId%22%3A%22389e96e4-a5d2-4396-80fa-ebc7dad9de22%22%7D" ({})
+console.error: ({})
+1736241279894	Marionette	INFO	Stopped listening on port 63118
+Dynamically enable window occlusion 1
+1736241419404	geckodriver	INFO	Listening on 127.0.0.1:63211
+1736241422460	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63212" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SYEDJA~1\\AppData\\Local\\Temp\\rust_mozprofile1F3puJ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1736241422819	Marionette	INFO	Marionette enabled
+1736241423075	Marionette	INFO	Listening on port 63219
+WebDriver BiDi listening on ws://127.0.0.1:63212
+Read port: 63219
+1736241423249	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+1736241469318	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:206:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:190:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+JavaScript warning: https://docucdn-a.akamaihd.net/demo/1ds-app/1972369/js/bundle.js, line 2: Script terminated by timeout at:
+w@https://docucdn-a.akamaihd.net/demo/1ds-app/1972369/js/bundle.js:2:599722
+
+1736241505093	Marionette	INFO	Stopped listening on port 63219
+Dynamically enable window occlusion 1
+1736242027480	geckodriver	INFO	Listening on 127.0.0.1:63408
+1736242030526	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63409" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SYEDJA~1\\AppData\\Local\\Temp\\rust_mozprofilekU7rpG"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1736242030869	Marionette	INFO	Marionette enabled
+1736242031137	Marionette	INFO	Listening on port 63416
+WebDriver BiDi listening on ws://127.0.0.1:63409
+Read port: 63416
+1736242031313	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+JavaScript error: , line 0: NotFoundError: No such JSProcessActor 'DevToolsProcess'
+1736242134234	Marionette	WARN	TimedPromise timed out after 500 ms: stacktrace:
+TimedPromise/<@chrome://remote/content/marionette/sync.sys.mjs:206:24
+TimedPromise@chrome://remote/content/marionette/sync.sys.mjs:190:10
+interaction.flushEventLoop@chrome://remote/content/marionette/interaction.sys.mjs:467:10
+webdriverClickElement@chrome://remote/content/marionette/interaction.sys.mjs:220:33
+1736242176210	Marionette	INFO	Stopped listening on port 63416
+Dynamically enable window occlusion 1
+1736242461341	geckodriver	INFO	Listening on 127.0.0.1:63550
+1736242464413	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "63551" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\SYEDJA~1\\AppData\\Local\\Temp\\rust_mozprofile0P7ng3"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+Dynamically enable window occlusion 0
+1736242464734	Marionette	INFO	Marionette enabled
+1736242464934	Marionette	INFO	Listening on port 63560
+WebDriver BiDi listening on ws://127.0.0.1:63551
+Read port: 63560
+1736242465099	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: ({})
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://account-d.docusign.com."
+1736242561840	Marionette	INFO	Stopped listening on port 63560
+JavaScript warning: https://docucdn-a.akamaihd.net/demo/1ds-app/1972369/js/bundle.js, line 2: Script terminated by timeout at:
+execute/80435/ne/s/n.args[0]@https://docucdn-a.akamaihd.net/demo/1ds-app/1972369/js/bundle.js:2:605051
+
+Dynamically enable window occlusion 1
