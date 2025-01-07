@@ -71,42 +71,25 @@ def test_setup(request):
 def pytest_html_report_title(report):
     report.title = "Docusign Automation Test Report"
 
+# Helper function to capture screenshots
+def capture_screenshot(driver, test_name):
+    screenshots_dir = "test_results/screenshots"
+    os.makedirs(screenshots_dir, exist_ok=True)
+    timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
+    screenshot_path = os.path.join(screenshots_dir, f"{test_name}_{timestamp}.png")
+    driver.save_screenshot(screenshot_path)
+    print(f"Screenshot saved to: {screenshot_path}")
 
-@pytest.hookimpl(hookwrapper=True)
+
+# Hook to capture screenshots on test failure
+@pytest.hookimpl(tryfirst=True, hookwrapper=True)
 def pytest_runtest_makereport(item, call):
-    html = None
-    pytest_html = item.config.pluginmanager.getplugin("html")
     outcome = yield
     report = outcome.get_result()
-    #extra = getattr(report, "extra", [])
-    if report.when == "call" or report.when == "test_setup":
-        # adding url to report
-        # extra.append(pytest_html.extras.url(os.path.abspath(constants.screenshots_path)))
-        xfail = hasattr(report, "wasxfail")
-        if (report.skipped and xfail) or (report.failed and not xfail):
-            driver = item.funcargs.get('driver', None)
-            if driver is not None:
-                utils = Util_Test(driver)
-                file_name = "/failed.png"
-                utils.getscreenshot(file_name)
-                filename = os.path.abspath(Util_Test.folder_path) + file_name
-                if file_name:
-                    html = '<div><img src="%s" alt="screenshot" style="width:304px;height:228px;" ' \
-                           'onclick="window.open(this.src)" align="right"/></div>' % filename
-                #extra.append(pytest_html.extras.html(html))
 
-       # report.extra = extra
-
-#
-# # It is Hook for adding environment info to HTML reports
-# def pytest_configure(config):
-#     config._metadata['Project Name'] = 'Docusign'
-#     config._metadata['Run User'] = os.environ.get('TriggeringUser', 'Unknown')
-#     config._metadata['UTC Time'] = datetime.now(pytz.UTC)
-#
-#
-# # It is Hook for delete/modify environment info to HTML report
-# def pytest_metadata(metadata):
-#     metadata.pop("Packages", None)
-#     metadata.pop("Plugins", None)
-#     metadata.pop("Python", None)
+    # Capture screenshot on test failure
+    if report.when == "call" and report.failed:
+        driver = item.funcargs.get("driver", None)
+        if driver:
+            test_name = item.name
+            capture_screenshot(driver, test_name)
