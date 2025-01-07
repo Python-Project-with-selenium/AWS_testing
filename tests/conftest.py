@@ -35,13 +35,11 @@ def test_setup(request):
             "safebrowsing.enabled": True
         })
         driver = webdriver.Chrome(service=ChromeService(ChromeDriverManager().install()), options=options)
-        # driver = webdriver.Chrome(
-        #     service=ChromeService(ChromeDriverManager().install(version="114.0.5735.90")),
-        #     options=options
-        # )
+
     elif browser == "firefox":
         download_path = os.path.abspath(constants.download_path)
         options = webdriver.FirefoxOptions()
+        options.add_argument("--headless")
         options.set_preference("browser.download.folderList", 2)
         options.set_preference("browser.download.manager.showWhenStarting", False)
         options.set_preference("signon.management.page.os-authKeystore", False)
