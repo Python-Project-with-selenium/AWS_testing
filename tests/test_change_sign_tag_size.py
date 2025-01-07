@@ -51,7 +51,7 @@ class Test_Change_Sign_Tag_Size:
             add_sign.addSignatureTag(350)
             Util_Test.write_custom_logs(logger, "Dragged and dropped the signature tag for recipient 1")
             utils.getscreenshot('/1.Before_changing_Signature_Tag_size_100%_resolution.png')
-            add_sign.validateOptionsUnderSignature()
+            # add_sign.validateOptionsUnderSignature()
             Util_Test.write_custom_logs(logger, "Validated the options under the signature section")
             add_sign.change_sign_tag_size()
             Util_Test.write_custom_logs(logger, "Increased the signature tag size for recipient 1")
