@@ -121,17 +121,21 @@ class Home_Page:
                     By.XPATH, self.start_button))).is_displayed()
                 WebDriverWait(self.driver, 90).until(EC.element_to_be_clickable((
                     By.XPATH, self.start_button))).click()
-                WebDriverWait(self.driver, 90).until(EC.visibility_of_element_located((
-                    By.XPATH, self.envelope_subMenu_btn))).is_displayed()
-                WebDriverWait(self.driver, 90).until(EC.visibility_of_element_located((
-                    By.XPATH, self.envelope_subMenu_btn))).click()
+                # time.sleep(20)
+                submenu_element = WebDriverWait(self.driver, 90).until(EC.visibility_of_element_located((
+                    By.XPATH, self.envelope_subMenu_btn)))
+                submenu_element.is_displayed()
+                # Perform the mouse action to click the submenu button
+                actions = ActionChains(self.driver)
+                actions.move_to_element(submenu_element).click().perform()
                 break
             except (StaleElementReferenceException, TimeoutException):
                 retry_count += 1
 
     def send_envelope(self):
-        WebDriverWait(self.driver, 60).until(EC.visibility_of_element_located((
-            By.XPATH, self.envelope_subMenu_btn))).click()
+        time.sleep(10)
+        # WebDriverWait(self.driver, 60).until(EC.visibility_of_element_located((
+        #     By.XPATH, self.envelope_subMenu_btn))).click()
         WebDriverWait(self.driver, 60).until(EC.element_to_be_clickable((
             By.CSS_SELECTOR, self.send_envelope_btn))).click()
         try:
